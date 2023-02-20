@@ -12,8 +12,8 @@ const hero = () => {
         muted
         id="video"
         playsinline
-        width="640"
-        height="360"
+        // width="640"
+        // height="360"
       >
         <source src={MainVideo} type="video/mp4" />
         <source src={MainVideoWebm} type="video/webm" />
@@ -21,8 +21,8 @@ const hero = () => {
       <div className="hero-text">
         <img
           src="https://i.imgur.com/9TwiW05.png"
-          width="700"
-          height="700"
+          width="500"
+          height="500"
         ></img>
         {/* <h1>PRIVATE</h1>*/}
         {/* <h1>*/}
@@ -37,9 +37,9 @@ const hero = () => {
         </div>
         {/*<button className="btn"> ???</button>*/}
       </div>
-      <div className="bottom-text">
-        {/* <button className="btn"> Total Volume Secured: $42,104,783,662.47</button>*/}
-      </div>
+      {/* <div className="bottom-text"> */}
+      {/* <button className="btn"> Total Volume Secured: $42,104,783,662.47</button>*/}
+      {/* </div> */}
     </div>
   );
 };
